@@ -1,0 +1,27 @@
+.error {
+    color: red;
+    font-size: 90%;
+    font-style: italic;
+}
+
+/*    chuyển "Hi, Nguyễn Minh Hiếu sang bên phải thanh navbar*/
+/*start*/
+.profile {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.navbar-nav {
+    flex-grow: 1 !important;
+}
+
+.profile .dropdown-menu {
+    right:0!important;
+    left:auto;
+}
+/*end*/
+
+/* đặt footer dính liền bên dưới màn hình */
+.mb-100 {
+    margin-bottom: 100px !important;
+}

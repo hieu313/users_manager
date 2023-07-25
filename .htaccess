@@ -1,0 +1,5 @@
+#đây là cmt 
+
+#1) ngăn chặn người dùng truy cập trực tiếp qua link vào phần modules và chỉ có thể thông qua index.php
+# Order allow,deny
+# Deny from all
